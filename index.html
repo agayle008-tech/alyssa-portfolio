@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Digital portfolio of Alyssa Gayle P. Banton, BSIT student and aspiring IT professional." name="description"/>
+<title>Alyssa Banton | Digital Portfolio</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+</head>
+<body>
+<header class="header">
+<nav aria-label="Main navigation" class="nav container">
+<a class="brand" href="#home">Alyssa<span>.</span></a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Open menu" class="menu-toggle">☰</button>
+<ul class="nav-links" id="nav-links">
+<li><a class="active" href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li><li><a href="#certificates">Certificates</a></li><li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="hero container" id="home">
+<div class="hero-copy reveal">
+<p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+<h1>Hi,<br/>I'm <span>Alyssa Gayle P. Banton</span><br/><span class="hero-role">BSIT Student &amp; Aspiring IT Professional</span></h1>
+<p class="hero-sub">I enjoy building practical digital solutions, exploring web development, and turning ideas into working systems.</p>
+<a class="btn" href="#contact">Contact Me</a>
+<div aria-label="Social media links" class="socials"><a aria-label="LinkedIn profile" href="https://www.linkedin.com/in/alyssa-gayle-banton" rel="noopener noreferrer" target="_blank"><span class="social-icon">in</span></a><a aria-label="Facebook profile" href="https://www.facebook.com/profile.php?id=61594606123596" rel="noopener noreferrer" target="_blank"><span class="social-icon">f</span></a><a aria-label="Send email" href="mailto:banton.alyssagayle@gmail.com"><span class="social-icon">✉</span></a></div>
+</div>
+<div class="hero-visual reveal"><div class="blob"><img alt="Portrait of Alyssa Gayle P. Banton" class="hero-portrait" src="profile.jpg"/></div></div>
+</section>
+<section class="section container" id="about">
+<h2 class="section-title">About</h2>
+<div class="about-grid"><div class="about-photo reveal"><img alt="Alyssa Gayle P. Banton" src="profile.jpg"/></div><div class="reveal"><h3>I'm Alyssa Gayle P. Banton</h3><p>I am a fourth-year Bachelor of Science in Information Technology student at STI College Legazpi. I am interested in web development, database systems, and creating technology that makes everyday tasks easier. Through academic projects, I have gained experience in researching user needs, planning system features, and developing digital solutions.</p><p>My goal is to continue improving my technical and communication skills and gain hands-on experience in the IT industry.</p></div></div>
+</section>
+<section class="section container" id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="skills-grid"><div class="reveal"><h3>Technical &amp; Professional Skills</h3><p>Skills developed through coursework and academic system projects.</p>
+<div class="skill"><div><span>HTML &amp; CSS</span><span>Web interfaces</span></div><div class="track"><span style="--level:85%"></span></div></div>
+<div class="skill"><div><span>JavaScript &amp; React</span><span>Frontend development</span></div><div class="track"><span style="--level:70%"></span></div></div>
+<div class="skill"><div><span>Python</span><span>Programming</span></div><div class="track"><span style="--level:70%"></span></div></div>
+<div class="skill"><div><span>SQL Server &amp; Databases</span><span>Data organization</span></div><div class="track"><span style="--level:80%"></span></div></div>
+<div class="skill"><div><span>Research &amp; Documentation</span><span>Project planning</span></div><div class="track"><span style="--level:85%"></span></div></div>
+<p class="skill-note"></p>
+</div><div class="skills-art reveal"><div class="tools-panel"><h3>Tools &amp; Technologies</h3><p>Technologies explored through coursework and academic projects.</p><div class="tool-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Python</span><span>SQL Server</span><span>Git</span><span>VS Code</span></div><div class="tools-note">Building practical skills through continuous learning and project work.</div></div></div></div>
+<div class="soft-skills reveal"><strong>Soft skills:</strong> Communication · Problem-Solving · Team Collaboration · Adaptability · Attention to Detail · Time Management</div>
+</section>
+<section class="section container" id="work">
+<h2 class="section-title">Work</h2><p class="section-intro">Selected academic projects and system concepts.</p>
+<div class="projects">
+<article aria-haspopup="dialog" aria-label="View details: Farm Analytics and Production Monitoring System" class="project reveal" data-modal="farm" role="button" tabindex="0"><div class="project-art farm"><span>🌱</span><strong>Farm Analytics</strong></div><div class="project-content"><span class="tag">CAPSTONE PROJECT</span><h3>Farm Analytics and Production Monitoring System</h3><p>A web-based system for Joross Farm that brings crop and livestock monitoring, staff tasks, inventory, sales, weather information, and reporting into one platform. Developed as a local prototype pending further evaluation and deployment.</p><p class="stack">Next.js · React · Python · FastAPI · SQL Server</p><div class="project-actions"><a class="paper-link project-paper" href="https://docs.google.com/document/d/11XmgbNZ14c6JzWeVksYsaUscoMNsr-wC/edit?usp=sharing&amp;ouid=112963328693435628118&amp;rtpof=true&amp;sd=true" rel="noopener noreferrer" target="_blank">Research Paper ↗</a></div></div></article>
+<article aria-haspopup="dialog" aria-label="View details: Hardware Store Inventory Management System" class="project reveal" data-modal="hardware" role="button" tabindex="0"><div class="project-art hardware"><span>📦</span><strong>Inventory System</strong></div><div class="project-content"><span class="tag">ACADEMIC PROJECT</span><h3>Hardware Store Inventory Management System</h3><p>A proposed system for tracking products, sales, and suppliers, with low-stock notifications and sales reports to help hardware stores manage daily operations.</p><p class="stack">System Analysis · Inventory Design · Database Concepts</p></div></article>
+<article aria-haspopup="dialog" aria-label="View details: Repirego – Android Device Tracking Application" class="project reveal" data-modal="repirego" role="button" tabindex="0"><div class="project-art phone"><span>📱</span><strong>Repirego</strong></div><div class="project-content"><span class="tag">ANDROID APP CONCEPT</span><h3>Repirego – Android Device Tracking Application</h3><p>A proposed Android application designed to help users locate lost devices and use anti-theft functions such as ringtone activation, device locking, and lost-device messages.</p><p class="stack">Mobile App Planning · UI/UX · Security Concepts</p></div></article>
+</div>
+
+</section>
+<section class="section container" id="experience"><h2 class="section-title">Experience &amp; Education</h2><div class="info-grid"><div aria-haspopup="dialog" aria-label="View details: Academic Project Experience" class="info-card reveal experience-summary" data-modal="experience" role="button" tabindex="0"><h3>Academic Project Experience</h3><h4>Farm Analytics and Production Monitoring System for Joross Farm</h4><p><strong>Capstone Researcher &amp; System Developer</strong></p><p class="summary-description">Research, system development, testing, and technical documentation for the Joross Farm capstone project.</p></div><div aria-haspopup="dialog" aria-label="View details: Education" class="info-card reveal" data-modal="education" role="button" tabindex="0"><h3>Education</h3><p><strong>Bachelor of Science in Information Technology</strong><br/>STI College Legazpi<br/>Fourth-year student</p></div></div></section>
+<section class="section container" id="certificates"><h2 class="section-title">Certificates</h2><p class="section-intro">Completed training and academic certifications.</p><div class="certificate-grid"><article aria-haspopup="dialog" aria-label="View details: Oracle Academy — Java Fundamentals" class="project reveal" data-modal="certificate" role="button" tabindex="0"><div class="certificate-thumb"><img alt="Oracle Academy Java Fundamentals course completion certificate" src="oracle-java-certificate.png"/></div><div class="project-content"><span class="tag">ACADEMIC CERTIFICATE</span><h3>Oracle Academy — Java Fundamentals</h3><p>Award of Course Completion for satisfactory completion of Java Fundamentals coursework, dated June 19, 2024.</p></div></article></div></section>
+<section class="section container contact-section" id="contact"><h2 class="section-title">Contact</h2><p class="section-intro">Have a question or want to connect? Send me a message.</p><form class="contact-form" id="contact-form"><label for="name">Name</label><input id="name" name="name" placeholder="Your name" required=""/><label for="email">Email</label><input id="email" name="email" placeholder="Your email" required="" type="email"/><label for="message">Message</label><textarea id="message" name="message" placeholder="Write your message..." required="" rows="6"></textarea><button class="btn" type="submit">Send Message</button><p class="form-note">This opens your email app with the message prepared. No information is stored on this website.</p></form><p class="contact-email">Or email me at <a href="mailto:banton.alyssagayle@gmail.com">banton.alyssagayle@gmail.com</a></p><div class="contact-socials"><a href="https://www.linkedin.com/in/alyssa-gayle-banton" rel="noopener noreferrer" target="_blank">LinkedIn</a><a href="https://www.facebook.com/profile.php?id=61594606123596" rel="noopener noreferrer" target="_blank">Facebook</a></div></section>
+</main>
+<footer><strong>Alyssa Gayle P. Banton</strong><p>BSIT Student · STI College Legazpi</p><small>© <span id="year"></span> Alyssa Banton. All rights reserved.</small></footer>
+<div class="modal-overlay" hidden="" id="detail-modal"><div aria-labelledby="modal-title" aria-modal="true" class="modal-panel" role="dialog" tabindex="-1"><button aria-label="Close details" class="modal-close" type="button">×</button><div id="modal-content"></div></div></div></body>
+</html>
